@@ -1,0 +1,21 @@
+# Vivado generated directories
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+*.xpr.lock
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+webtalk*.log
+webtalk*.jou
+vivado*.jou
+vivado*.log
+vivado_pid*.debug
+*.wdb
+*.pb
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml

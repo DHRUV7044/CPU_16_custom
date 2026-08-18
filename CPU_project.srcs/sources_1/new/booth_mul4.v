@@ -34,7 +34,7 @@ module booth_mul4(
            add:     next_state = a_right;
            same:    next_state = a_right;
            a_right: next_state = asn;
-           asn:     next_state = (count == 4) ? done : init;
+           asn:     next_state = (count == 3) ? done : init;
            done:    next_state = done;
            default: next_state = load;
        endcase

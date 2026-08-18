@@ -9,7 +9,7 @@ module sub_16(
     );
     wire [15:0] mb;
     wire cout;
-    two_compliment inst1(b,mb);
-    add_16 ins1 (a,mb,result,cout,1'b0);
+    assign mb=~b;
+    add_16 ins1 (a,mb,result,cout,1'b1);
     assign borrow=~cout;
 endmodule
